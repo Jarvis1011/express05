@@ -1,7 +1,4 @@
-// import express, { json } from "express"
 const express = require("express")
-// import data1 from "./singers.json" assert {type: "json"};
-// const {singers} = data1;
 const {singers} = require("./singers.json")
 
 const app = express()
